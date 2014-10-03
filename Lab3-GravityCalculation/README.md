@@ -5,7 +5,7 @@ Earth's gravity.
 1. Create a new class called GravityCalculator. 
 1. Copy and paste the following initial version: 
 
-	class GravityCalculator {
+	`class GravityCalculator {
 		public static void main(String[] arguments) {
 			double gravity; // a
 			double fallingTime = 0.0; // t
@@ -15,7 +15,7 @@ Earth's gravity.
 			System.out.println("The object's position after " + fallingTime
 					+ " seconds is " + finalPosition + " m.");
 		}
-	}
+	}`
 1. Earth's Gravity is -9.80665 m/s^2, set gravity to the appropriate value
 1. Run it in Eclipse (Run ? Run As ? Java Application). and see it work
 
