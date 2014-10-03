@@ -5,11 +5,11 @@ import java.io.InputStreamReader;
 public class RunningTotal{
 	//Challenge how do we simplify this. 
 	public static void main(String[] args) {
-		Float runningTotal = 0.0f;
+		float runningTotal = 0.0f;
 		
 		String userInput = prompt("Number to add to total (type exit to exit): ");
 		try{
-			Float numberToAdd = Float.parseFloat(userInput);
+			float numberToAdd = Float.parseFloat(userInput);
 			runningTotal+= numberToAdd;
 			System.out.println("Your running total is : " + runningTotal);
 		}catch(NumberFormatException ex){
@@ -21,7 +21,7 @@ public class RunningTotal{
 		while (!"exit".equals(userInput.toLowerCase())) {
 			userInput = prompt("Number to add to total (type exit to exit): ");
 			try{
-				Float numberToAdd = Float.parseFloat(userInput);
+				float numberToAdd = Float.parseFloat(userInput);
 				runningTotal+= numberToAdd;
 				System.out.println("Your running total is : " + runningTotal);
 			}catch(NumberFormatException ex){

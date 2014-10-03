@@ -5,12 +5,12 @@ import java.io.InputStreamReader;
 public class DoLoop{
 	//Challenge how do we simplify this. 
 	public static void main(String[] args) {
-		Float runningTotal = 0.0f;
+		float runningTotal = 0.0f;
 		String userInput;
 		do {
 			userInput = prompt("Number to add to total (type exit to exit): ");
 			try{
-				Float numberToAdd = Float.parseFloat(userInput);
+				float numberToAdd = Float.parseFloat(userInput);
 				runningTotal+= numberToAdd;
 				System.out.println("Your running total is : " + runningTotal);
 			}catch(NumberFormatException ex){
