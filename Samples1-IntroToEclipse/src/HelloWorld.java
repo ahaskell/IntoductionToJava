@@ -1,6 +1,11 @@
-class HelloWorld {
-    public static void main(String[] arguments) {
-        System.out.println("Hello world."); // Print once
-        System.out.println("Line number 2"); // Again!
-    }
+//TODO: Workspace
+//TODO: Import projects
+//TODO: Create Projects
+//TODO: Views
+//TODO: Snippets/Templates
+
+class HellowWorld{
+	//TODO: main
+	
+	//TODO: sysout
 }

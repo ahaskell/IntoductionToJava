@@ -7,6 +7,7 @@ public class VariableExamples {
 		
 		//TODO: How to I declare a variable named age?
 		System.out.println("Adam is ");
+		//TODO: Auto completion, for int v Integer
 	}
 }
 		
