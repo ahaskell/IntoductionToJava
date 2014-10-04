@@ -1,15 +1,20 @@
-
+@SuppressWarnings("all")
 public class Equalities {
 
 	public static void main(String[] args) {
 		String myString = "Hello All";
 		
+		//TODO: Will this print True or False?
 		print(myString == "Hello All");
-		//print(mySting == new String("Hello All"));
-		//print(myString == myString);
-		//print(myString.equals("hello all"));
-		//myString = null;
-		//print(myString.equals("Hello All"));
+		//TODO: This one?
+		print(myString == new String("Hello All"));
+		//TODO: And this one
+		print(myString == myString);
+		//TODO: Equals to the rescue!
+		print(myString.equals("hello all"));
+		//TODO: Well Sort of 
+		myString = null;
+		print(myString.equals("Hello All"));
 		
 
 	}

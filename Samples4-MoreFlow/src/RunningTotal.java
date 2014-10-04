@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class RunningTotal{
-	//Challenge how do we simplify this. 
+	//TODO: How do we Simplify this??
 	public static void main(String[] args) {
 		float runningTotal = 0.0f;
 		
@@ -17,6 +17,7 @@ public class RunningTotal{
 				System.out.println("Invalid input");
 			}
 		}
+		
 		
 		while (!"exit".equals(userInput.toLowerCase())) {
 			userInput = prompt("Number to add to total (type exit to exit): ");
